@@ -4,6 +4,7 @@
     <title>Amazon Tacos Meeting Notes</title>
     <meta charset="UTF-8">
     <link rel = "icon" href = "media/pic3.png">
+    <link rel = "stylesheet" href = "styles.css">
   </head>
   <body>
     <header>
@@ -68,9 +69,11 @@
         </details>
         <details>
             <summary>Stonks that were covered</summary>
-            <img src="media/pic1.png" alt="https://i.insider.com/601448566dfbe10018e00c5d?width=700" width="500" height="400">
-            <img src="media/pic2.png" alt="https://i.insider.com/601448566dfbe10018e00c5d?width=700" width="500" height="400">
-            <img src="media/pic3.png" alt="https://i.insider.com/601448566dfbe10018e00c5d?width=700" width="500" height="400">
+            <div class="stonk-img">
+              <img id="img1" src="media/pic1.png" alt="https://i.insider.com/601448566dfbe10018e00c5d?width=700">
+              <img id="img2" src="media/pic2.png" alt="https://i.insider.com/601448566dfbe10018e00c5d?width=700">
+              <img id="img3" src="media/pic3.png" alt="https://i.insider.com/601448566dfbe10018e00c5d?width=700">
+            </div>
         </details>
       </div>
     </nav>
@@ -78,7 +81,7 @@
     <main>
       <div class="section3">
         <h2>Video & Audio Recordings</h2>
-        <video width="640" height="480" controls>
+        <video controls>
           <source src="media/vid1.mp4" type="video/mp4">
           <source src="media/vid1.mp4" type="video/ogg">
         </video>
@@ -92,7 +95,7 @@
 
     <footer>
       <div class="section4">  
-        <h3>Fill out this form if any other questions need to be addressed for next meeting</h3>
+        <h3 class="section4">Fill out this form if any other questions need to be addressed for next meeting</h3>
           <form>
             <fieldset>
               <label for="fname">Enter your name</label>
