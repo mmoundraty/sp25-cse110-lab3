@@ -201,6 +201,16 @@ details:has(strong) {
   border: 2px dashed red;
 }
 
+/*button*/
+
+button {
+  padding: 10pt;
+}
+
+button:active {
+  background-color: lightblue;
+}
+
 
 
   
