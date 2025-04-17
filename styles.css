@@ -164,5 +164,43 @@ summary {
 
 /*Need to implement rest of Selectors*/
 
+#fname {
+  background-color: #ffffcc;
+}
+
+li {
+  list-style: circle;
+}
+
+input[type="text"] {
+  border: 2px solid gray;
+}
+
+fieldset label {
+  font-size: 1rem;
+}
+
+form > fieldset {
+  border: 2px dashed #999;
+}
+
+label ~ input {
+  border-radius: 5px;
+}
+
+label + input {
+  margin-left: 5px;
+}
+
+h3.section4 {
+  background-color: yellow;
+  margin: auto auto auto auto;
+}
+
+details:has(strong) {
+  border: 2px dashed red;
+}
+
+
 
   
