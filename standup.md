@@ -10,6 +10,11 @@
 - Dad
 - Pitbull
 
+## Action Items
+1. Must implement destructor button
+2. Take care of the bugs of the login portion
+3. Remove unnecessary animations
+
 ### Mitchell
 
 | What did I work on yesterday? | What am I working on today? | What issues are blocking me | 
@@ -49,3 +54,6 @@
 | Eat & Sleep  | Eat & Sleep    |  N/A  |
 | Eat & Sleep |   Eat & Sleep   | N/A |
 |  Eat & Sleep  |  Eat & Sleep   | N/A |
+
+## Date for the next meeting
+12/11/2025 9:00AM
